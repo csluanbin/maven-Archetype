@@ -9,6 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Properties;
 
 /**
  * Created by luanbin on 10/21/16.
@@ -23,6 +24,10 @@ public class IndexController {
         Map<String, Object> map = new HashMap<>();
         map.put("name", "q3boy");
         map.put("password", "q3girl");
+        LOGGER.info("this is info");
+        LOGGER.warn("this is warn");
+        LOGGER.error("this is error");
+
         return map.toString();
     }
 
