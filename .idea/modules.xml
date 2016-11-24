@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Archetype.iml" filepath="$PROJECT_DIR$/Archetype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Archetype-common/Archetype-common.iml" filepath="$PROJECT_DIR$/Archetype-common/Archetype-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Archetype-remote-service/Archetype-remote-service.iml" filepath="$PROJECT_DIR$/Archetype-remote-service/Archetype-remote-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Archetype-web/Archetype-web.iml" filepath="$PROJECT_DIR$/Archetype-web/Archetype-web.iml" />
+    </modules>
+  </component>
+</project>

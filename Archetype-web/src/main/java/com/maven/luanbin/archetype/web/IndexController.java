@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,5 +24,13 @@ public class IndexController {
         map.put("name", "q3boy");
         map.put("password", "q3girl");
         return map.toString();
+    }
+
+    @RequestMapping(value = "/testVm", method = RequestMethod.GET)
+    public ModelAndView testVm() {
+        ModelAndView mav= new ModelAndView();
+        mav.addObject("city", "test");
+        mav.setViewName("hello");
+        return mav;
     }
 }
