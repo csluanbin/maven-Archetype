@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.maven.luanbin.archetype.mapper.TestMapper">
+
+    <sql id="base_columns">
+        name,age
+    </sql>
+
+    <select id="getTestByName" resultType="com.maven.luanbin.archetype.domain.TestDo">
+        select
+        <include refid="base_columns"/>
+        FROM test
+        WHERE name = #{name}
+    </select>
+</mapper>

@@ -1,0 +1,33 @@
+﻿<html>  
+<body>  
+<h2>Add Book</h2>
+<div>
+	<form method="post" action="/admin/">
+		<div>
+            title:<input type="text" name="chapter.title" id="title">
+			url:<input type="text" name="chapter.url" id="url">
+			encode:<input type="text" name="chapter.encode" id="encode">
+		</div>
+		<div>
+			首页
+			<select name="chapter.type">
+				<option value="class">class</option>
+				<option value="id">id</option>
+			</select>
+			root tag:<input type="text" name="chapter.tag" id="top_tag">
+			elements:<input type="text" name="chapter.elements" id="top_elements">
+		</div>
+		<div>
+			子频道页
+			<select name="detail.type">
+				<option value="class">class</option>
+				<option value="id">id</option>
+			</select>
+			root tag:<input type="text" name="detail.tag" id="next_tag">
+			elements:<input type="text" name="detail.elements" id="next_elements">
+		</div>
+		<input type="submit" value="Add">
+	</form>
+</div>
+</body>  
+</html>

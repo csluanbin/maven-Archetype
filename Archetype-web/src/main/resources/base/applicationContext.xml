@@ -3,10 +3,13 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	   http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
 	   http://www.springframework.org/schema/context
-	   http://www.springframework.org/schema/context/spring-context-3.2.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+	   http://www.springframework.org/schema/context/spring-context-3.2.xsd
+	   http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+	   http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
 
     <context:annotation-config/>
 
@@ -25,5 +28,17 @@
             </list>
         </property>
     </bean>
+
+    <!--<bean id="testService" class="com.maven.luanbin.archetype.service.TestService"/>-->
+    <!--<aop:aspectj-autoproxy  proxy-target-class="true"/>
+    <bean id="aopTestService" class="com.maven.luanbin.archetype.service.AopTestService"/>
+
+    <aop:config>
+        <aop:aspect id="myAop" ref="aopTestService">
+            <aop:pointcut id="target" expression="execution(* com.maven.luanbin.archetype.service.TestService.execute(..))"/>
+            <aop:before method="checkValidity" pointcut-ref="target"/>
+        </aop:aspect>
+    </aop:config>-->
+
 </beans>
 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.maven.luanbin.archetype.mapper.ActivityMappper">
+
+    <sql id="base_columns">
+        project_id, project_channel_id, clue_id, command_id, command_info, create_time
+    </sql>
+
+    <resultMap id="BaseResultMap" type="com.maven.luanbin.archetype.dataobject.ActivityDo">
+        <id column="project_id" property="projectId" jdbcType="INTEGER"/>
+        <result column="project_channel_id" property="projectChannelId" jdbcType="INTEGER"/>
+        <result column="clue_id" property="clueId" jdbcType="INTEGER"/>
+        <result column="command_id" property="commandId" jdbcType="INTEGER"/>
+        <result column="command_info" property="commandInfo" jdbcType="VARCHAR"/>
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <insert id="insertActivity" parameterType="com.maven.luanbin.archetype.dataobject.ActivityDo">
+        insert into activity
+        (
+        <include refid="base_columns"/>
+        )
+        VALUES
+        (
+          #{projectId}, #{projectChannelId}, #{clueId}, #{commandId}, #{commandInfo}, #{createTime}
+        )
+    </insert>
+
+    <select id="getActivityByClueId" resultMap="BaseResultMap">
+        select
+        <include refid="base_columns"/>
+        FROM activity
+        WHERE clue_id = #{clueId}
+    </select>
+</mapper>

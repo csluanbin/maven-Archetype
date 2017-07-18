@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.maven.luanbin.archetype.mapper.ProjectMapper">
+
+    <sql id="project_base_columns">
+        name, user_id, create_time, modify_time
+    </sql>
+
+    <sql id="project_channel_base_columns">
+        project_id, project_channel, create_time, modify_time
+    </sql>
+
+    <sql id="project_command_base_columns">
+        project_id, project_command_id, create_time, modify_time
+    </sql>
+
+    <resultMap id="BaseResultMap" type="com.maven.luanbin.archetype.dataobject.UserDo">
+        <id column="name" property="loginName" jdbcType="VARCHAR"/>
+        <result column="user_id" property="password" jdbcType="VARCHAR"/>
+        <result column="create_time" property="corpName" jdbcType="VARCHAR"/>
+        <result column="modify_time" property="createTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+
+    <insert id="insertProject" parameterType="com.maven.luanbin.archetype.dataobject.ProjectDo"
+            useGeneratedKeys="true" keyProperty="projectDo.id">
+        insert into project
+        (
+        <include refid="project_base_columns"/>
+        )
+        VALUES
+        (
+          #{projectDo.name}, #{projectDo.userId}, #{projectDo.createTime}, #{projectDo.modifyTime}
+        )
+    </insert>
+
+
+    <insert id="insertProjectCommand" parameterType="com.maven.luanbin.archetype.dataobject.ProjectCommandDo">
+        insert into project_command
+        (
+        <include refid="project_command_base_columns"/>
+        )
+        VALUES
+        (
+          #{projectId}, #{projectCommandId}, #{createTime}, #{modifyTime}
+        )
+    </insert>
+
+    <insert id="insertProjectChannel" parameterType="com.maven.luanbin.archetype.dataobject.ProjectChannelDo">
+        insert into project_channel
+        (
+        <include refid="project_channel_base_columns"/>
+        )
+        VALUES
+        (
+          #{projectId}, #{projectChannel}, #{createTime}, #{modifyTime}
+        )
+    </insert>
+
+    <select id="getProjectByUserId" resultType="com.maven.luanbin.archetype.dataobject.ProjectDo">
+        select
+        id as id, name as name, user_id as userId, create_time as createTime, modify_time as modifyTime
+        FROM project
+        WHERE user_id = #{userId}
+    </select>
+
+    <select id="getProjectCommandByProjectId" resultType="com.maven.luanbin.archetype.dataobject.ProjectCommandDo">
+        select
+        id as id, project_id as projectId, project_command_id as projectCommandId, create_time as createTime, modify_time as modifyTime
+        FROM project_command
+        WHERE project_id = #{projectId}
+    </select>
+
+    <delete id="deleteCommandByProjectId" parameterType="java.lang.Integer">
+        delete from project_command
+        where project_id = #{projectId}
+    </delete>
+
+    <select id="getProjectChannelByProjectId" resultType="com.maven.luanbin.archetype.dataobject.ProjectChannelDo">
+        select
+        id as id, project_id as projectId, project_channel as projectChannel, create_time as createTime, modify_time as modifyTime
+        FROM project_channel
+        WHERE project_id = #{projectId}
+    </select>
+
+    <select id="getProjectChannelByChannelId" resultType="com.maven.luanbin.archetype.dataobject.ProjectChannelDo">
+        select
+        id as id, project_id as projectId, project_channel as projectChannel, create_time as createTime, modify_time as modifyTime
+        FROM project_channel
+        WHERE id = #{channelId}
+    </select>
+
+    <select id="getProjectById" resultType="com.maven.luanbin.archetype.dataobject.ProjectDo">
+        select
+        id as id, name as name, user_id as userId, create_time as createTime, modify_time as modifyTime
+        FROM project
+        WHERE id = #{projectId}
+    </select>
+</mapper>

@@ -6,14 +6,106 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1db472a7-cf47-4918-a868-ac4a3e0d89a7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/resources/local/log4j2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/resources/prod/log4j2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/resources/stage/log4j2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/resources/test/log4j2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/resources/test_develop/log4j2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/resources/test_release/log4j2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/TestServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/common/AuditEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/common/CoopCommandConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/common/TErrorResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/common/TResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/common/TSuccessResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/ActivityDo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/ClueDo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/ClueHistoryDo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/ProjectChannelDo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/ProjectCommandDo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/ProjectDo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/UserDo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/domain/TestDo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/ActivityMappper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/ChapterMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/ClueHistoryMappper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/ClueMappper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/DetailMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/ProjectMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/TestMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/UserMappper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/model/Book.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/model/Chapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/model/Detail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/model/Next.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/model/Node.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/model/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/model/Root.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/model/vo/ChapterVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/model/vo/DetailVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/service/AopTestService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/service/HtmlExtractService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/service/HttpService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/service/TestService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/service/TestService1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/service/TestService2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/service/TestServiceInter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/service/chapter/ChapterService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/service/detail/DetailService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/util/ChapterUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/util/DateUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/util/DetailUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/util/ExcelUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ActivityVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ClueDetailResVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ClueHistoryRequestVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ClueHistoryResVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ClueQueryParam.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ClueResVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/CoopCommandVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/LoginRequestVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/LoginResponseVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ParticipateCommandRequestVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ParticipateRequestVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ProjectChannelRequestVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ProjectChannelResponseVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ProjectCommandRequesteVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ProjectCommandResponseVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ProjectInfoResponseVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ProjectRequestVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/RegisterRequestVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/AccessController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/AdminController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/ClueManageController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/ParticipateController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/ProjectController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/QueryController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/SpiderIndexController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/ActivityMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/ChapterMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/ClueHistoryMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/ClueMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/DetailMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/ProjectMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/TestMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/UserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/webapp/WEB-INF/velocity/importChapter.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/webapp/WEB-INF/velocity/index.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/webapp/WEB-INF/velocity/main.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/webapp/WEB-INF/velocity/query.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Archetype-web/src/main/webapp/WEB-INF/velocity/spider.vm" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Archetype_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Archetype_web_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Archetype-common/Archetype-common.iml" afterPath="$PROJECT_DIR$/Archetype-common/Archetype-common.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Archetype-remote-service/Archetype-remote-service.iml" afterPath="$PROJECT_DIR$/Archetype-remote-service/Archetype-remote-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Archetype-web/Archetype-web.iml" afterPath="$PROJECT_DIR$/Archetype-web/Archetype-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Archetype-web/pom.xml" afterPath="$PROJECT_DIR$/Archetype-web/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/IndexController.java" afterPath="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Archetype-web/src/main/resources/base/applicationContext-mvc.xml" afterPath="$PROJECT_DIR$/Archetype-web/src/main/resources/base/applicationContext-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Archetype-web/src/main/resources/base/applicationContext.xml" afterPath="$PROJECT_DIR$/Archetype-web/src/main/resources/base/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Archetype-web/src/main/resources/local/database.properties" afterPath="$PROJECT_DIR$/Archetype-web/src/main/resources/local/database.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Archetype-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/Archetype-web/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="Archetype.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +121,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -38,42 +129,54 @@
     <favorites_list name="Archetype" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="database.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/local/database.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45454547">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="795">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DispatcherServlet.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.2.RELEASE/spring-webmvc-4.2.2.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1515">
+              <caret line="156" column="13" lean-forward="false" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/TestServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServletInputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/javax/servlet/ServletInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="55" column="60" lean-forward="false" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -81,52 +184,119 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>modif</find>
+      <find>modify</find>
+      <find>modifyC</find>
+      <find>modifyCh</find>
+      <find>modifyCha</find>
+      <find>modifyChan</find>
+      <find>modifyChann</find>
+      <find>getProjectChannel</find>
+      <find>ProjectRequestVo</find>
+      <find>insertProject</find>
+      <find>modifyProjectCommand</find>
+      <find>BASE_URL</find>
+      <find>u</find>
+      <find>up</find>
+      <find>upli</find>
+      <find>upl</find>
+      <find>uplo</find>
+      <find>uploa</find>
+      <find>upload</find>
+      <find>getClueDetail</find>
+      <find>getProjectCommand</find>
+      <find>save</find>
+      <find>getChannelByProject</find>
+      <find>f</find>
+      <find>for</find>
+      <find>formae</find>
+      <find>formaa</find>
+      <find>forma</find>
+      <find>format</find>
+      <find>formatU</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Archetype-web/src/main/webapp/WEB-INF/velocity/hello.vm" />
-        <option value="$PROJECT_DIR$/Archetype-web/src/main/resources/base/applicationContext-mvc.xml" />
-        <option value="$PROJECT_DIR$/Archetype-web/.gitignore" />
-        <option value="$PROJECT_DIR$/Archetype-web/src/main/resources/local/config.properties" />
-        <option value="$PROJECT_DIR$/Archetype-web/src/main/resources/local/log4j2.xml" />
-        <option value="$PROJECT_DIR$/Archetype-web/src/main/resources/local/database.properties" />
-        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/IndexController.java" />
-        <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/UserDo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/ProjectDo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/ProjectMappper.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/UserMappper.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/LoginResponseVo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/AccessController.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/common/CoopCommandEnum.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/common/CoopCommandConstant.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/CoopCommandVo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ProjectInfoRequestVo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/ProjectCommandDo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/ProjectChannelDo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/service/ProjectService.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ProjectInfoResponseVo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ProjectCommandResponseVo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/common/CoopCommandConstants.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ProjectCommandRequesteVo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ProjectRequestVo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ProjectChannelResponseVo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ProjectChannelRequestVo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ParticipateCommandRequestVo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/common/AuditEnum.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ParticipateRequestVo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/ActivityDo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/ClueDo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/ActivityMapper.xml" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/ActivityMappper.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ActivityVo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/ClueHistoryDo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/ClueHistoryMappper.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ClueHistoryVo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ClueHistoryRequestVo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ClueHistoryResVo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ClueDetailResVo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/util/DateUtil.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ClueQueryParam.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/ClueMappper.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/ClueMapper.xml" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/ClueHistoryMapper.xml" />
+        <option value="$PROJECT_DIR$/Archetype-web/pom.xml" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/util/ExcelUtil.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/ProjectMapper.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/ProjectMapper.xml" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ClueResVo.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/ClueManageController.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/ParticipateController.java" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/ProjectController.java" />
         <option value="$PROJECT_DIR$/Archetype-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/TestServlet.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="NamedScopeManager">
-    <order />
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="823" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <option name="height" value="813" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -139,10 +309,12 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -150,184 +322,8 @@
               <option name="myItemId" value="Archetype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="maven-Archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maven-Archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Archetype-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maven-Archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Archetype-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maven-Archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Archetype-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maven-Archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Archetype-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_release" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maven-Archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Archetype-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maven-Archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Archetype-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maven-Archetype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Archetype-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="archetype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -342,22 +338,63 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.maven.luanbin.archetype.vo" />
+      <recent name="com.maven.luanbin.archetype.dataobject" />
+      <recent name="com.maven.luanbin.archetype.mapper" />
+      <recent name="com.maven.luanbin.archetype.web" />
+      <recent name="com.maven.luanbin.archetype.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Archetype-web/src/main/resources/test_release" />
-      <recent name="$PROJECT_DIR$/Archetype-web/src/main/resources/test_develop" />
-      <recent name="$PROJECT_DIR$/Archetype-web/src/main/resources/test" />
-      <recent name="$PROJECT_DIR$/Archetype-web/src/main/resources/stage" />
-      <recent name="$PROJECT_DIR$/Archetype-web/src/main/resources/prod" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper" />
+      <recent name="$PROJECT_DIR$/Archetype-web/src/main/webapp/WEB-INF/velocity" />
+      <recent name="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/service" />
+      <recent name="$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web" />
     </key>
   </component>
-  <component name="RunManager" selected="Jetty Server.Unnamed">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Jetty Server.spider">
+    <configuration default="false" name="IndexController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.maven.luanbin.archetype.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.maven.luanbin.archetype.web.IndexController" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Archetype-web" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -382,15 +419,40 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -461,22 +523,54 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <module name="" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="false" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Archetype" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JettyConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -491,14 +585,30 @@
               </JettyConfigFile>
             </list>
           </option>
+          <option name="myConfigFiles">
+            <list>
+              <JettyConfigFile>
+                <option name="active" value="true" />
+                <option name="path" value="modules/jmx.mod" />
+              </JettyConfigFile>
+            </list>
+          </option>
         </data>
       </server-settings>
       <predefined_log_file id="Jetty" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <profiling log-folder="$PROJECT_DIR$" />
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -507,38 +617,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -576,6 +654,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -584,23 +663,20 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="JettyConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Jetty 8.1.15.v201404111" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="spider" type="JettyConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Jetty 8.1.15.v20140411" ALTERNATIVE_JRE_ENABLED="false">
       <option name="COMMON_VM_ARGUMENTS" value="-DLOG_HOME=$PROJECT_DIR$/.. -DFILE_NAME=archetype" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -642,7 +718,88 @@
                 <option name="path" value="etc/jetty-ipaccess.xml" />
               </JettyConfigFile>
               <JettyConfigFile>
-                <option name="active" value="true" />
+                <option name="path" value="etc/jetty-jmx.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-logging.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-monitor.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-overlay.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-plus.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-policy.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-proxy.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-requestlog.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-rewrite.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-spdy-proxy.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-spdy.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-ssl.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-stats.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-testrealm.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-webapps.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-xinetd.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty.xml" />
+              </JettyConfigFile>
+            </list>
+          </option>
+          <option name="myConfigFiles">
+            <list>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-ajp.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-annotations.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-bio-ssl.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-bio.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-contexts.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-debug.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-deploy.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-fileserver.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="etc/jetty-ipaccess.xml" />
+              </JettyConfigFile>
+              <JettyConfigFile>
                 <option name="path" value="etc/jetty-jmx.xml" />
               </JettyConfigFile>
               <JettyConfigFile>
@@ -735,71 +892,178 @@
         </option>
       </method>
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Jetty Server.Unnamed" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Jetty Server.spider" />
+      <item index="1" class="java.lang.String" itemvalue="Application.IndexController" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.IndexController" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1db472a7-cf47-4918-a868-ac4a3e0d89a7" name="Default" comment="" />
       <created>1479958035138</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1479958035138</updated>
       <workItem from="1479958036710" duration="17000" />
       <workItem from="1479958062821" duration="1398000" />
       <workItem from="1479959801114" duration="998000" />
       <workItem from="1479987883686" duration="2157000" />
       <workItem from="1479990914131" duration="1649000" />
-      <workItem from="1479993508653" duration="1143000" />
+      <workItem from="1479993508653" duration="2124000" />
+      <workItem from="1480487306264" duration="37000" />
+      <workItem from="1480487349292" duration="417000" />
+      <workItem from="1480488108424" duration="1350000" />
+      <workItem from="1480496001754" duration="706000" />
+      <workItem from="1481171204771" duration="709000" />
+      <workItem from="1481183884653" duration="2225000" />
+      <workItem from="1482407777649" duration="7652000" />
+      <workItem from="1482833920456" duration="246000" />
+      <workItem from="1482834297695" duration="1214000" />
+      <workItem from="1482852640050" duration="363000" />
+      <workItem from="1486813342057" duration="2000" />
+      <workItem from="1487052929230" duration="5000" />
+      <workItem from="1487052955217" duration="5000" />
+      <workItem from="1487053578469" duration="17000" />
+      <workItem from="1487057017669" duration="1085000" />
+      <workItem from="1487058196760" duration="7417000" />
+      <workItem from="1487588539047" duration="6000" />
+      <workItem from="1487771294447" duration="1359000" />
+      <workItem from="1488008660816" duration="3030000" />
+      <workItem from="1497515223768" duration="3890000" />
+      <workItem from="1497677053563" duration="16561000" />
+      <workItem from="1498043150526" duration="5021000" />
+      <workItem from="1498190514927" duration="19572000" />
+      <workItem from="1498636028772" duration="3601000" />
+      <workItem from="1500371296139" duration="105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7362000" />
+    <option name="totallyTimeSpent" value="84938000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1440" height="823" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33286908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32692307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986111" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33286908" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3243626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30472103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3662375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32474965" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/SpiderIndexController.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/SpiderIndexController.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/service/HtmlExtractService.java</url>
+          <line>202</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/AdminController.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/AccessController.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/AccessController.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/ProjectController.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/ProjectController.java</url>
+          <line>247</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/ClueManageController.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/ClueManageController.java</url>
+          <line>135</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/TestServlet.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="46" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -807,238 +1071,404 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/local/database.properties">
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/TestMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <marker date="1497519524000" expanded="true" signature="369:462" ph="select FROM test" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <marker date="1497683400000" expanded="true" signature="797:918" ph="select FROM user" />
+            <marker date="1497683400000" expanded="true" signature="1030:1205" ph="insert into user... " />
+            <marker date="1497683400000" expanded="true" signature="1204:1205" ph="INSERT INTO novel_chapter... " />
+            <marker date="1497683400000" expanded="true" signature="1287:1393" ph="select id, l... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/QueryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/param.java" />
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/AccessController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+        <state relative-caret-position="1097">
+          <caret line="92" column="62" lean-forward="false" selection-start-line="92" selection-start-column="62" selection-end-line="92" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/UserDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/org/apache/commons/lang/time/DateFormatUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1543">
+          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/ActivityDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/generation/ClassroomMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="134" column="2" lean-forward="false" selection-start-line="134" selection-start-column="2" selection-end-line="134" selection-end-column="2" />
+          <folding>
+            <marker date="1479959793000" expanded="true" signature="3430:3535" ph="select from classroom" />
+            <marker date="1479959793000" expanded="true" signature="3622:3681" ph="delete from " />
+            <marker date="1479959793000" expanded="true" signature="3799:3820" ph="delete from " />
+            <marker date="1479959793000" expanded="true" signature="5074:5104" ph="select count... classroom" />
+            <marker date="1479959793000" expanded="true" signature="5787:5944" ph="update class... " />
+            <marker date="1479959793000" expanded="true" signature="6170:6425" ph="update class... " />
+            <marker date="1479959793000" expanded="true" signature="6539:6678" ph="update class... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/ClueHistoryDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ProjectCommandResponseVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/org/apache/commons/lang/time/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="383" column="26" lean-forward="false" selection-start-line="383" selection-start-column="26" selection-end-line="383" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5-sources.jar!/org/apache/commons/lang3/time/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-749">
+          <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/ClueDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/ClueMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/src.zip!/java/lang/System.java">
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/ClueHistoryMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="626" column="28" selection-start-line="626" selection-start-column="18" selection-end-line="626" selection-end-column="28" />
+        <state relative-caret-position="182">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/local/log4j2.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.2.RELEASE/spring-web-4.2.2.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="316">
+          <caret line="228" column="0" lean-forward="false" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/dataobject/ProjectChannelDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/ClueHistoryMappper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="256" column="21" lean-forward="false" selection-start-line="256" selection-start-column="21" selection-end-line="256" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/util/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6235">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ClueQueryParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/common/CoopCommandConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/ClueMappper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ProjectRequestVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/common/AuditEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/ProjectMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="96" column="30" lean-forward="false" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+          <folding>
+            <marker date="1498221702000" expanded="true" signature="1132:1353" ph="insert into project... " />
+            <marker date="1498221702000" expanded="true" signature="1489:1701" ph="insert into project_command... " />
+            <marker date="1498221702000" expanded="true" signature="1836:2046" ph="insert into project_channel... " />
+            <marker date="1498221702000" expanded="true" signature="2169:2334" ph="select id as... project" />
+            <marker date="1498221702000" expanded="true" signature="2474:2685" ph="select id as... project_command" />
+            <marker date="1498221702000" expanded="true" signature="2786:2853" ph="delete from " />
+            <marker date="1498221702000" expanded="true" signature="2993:3199" ph="select id as... project_channel" />
+            <marker date="1498221702000" expanded="true" signature="3339:3537" ph="select id as... project_channel" />
+            <marker date="1498221702000" expanded="true" signature="3656:3819" ph="select id as... project" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/ProjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ClueResVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ClueHistoryRequestVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/mapper/ActivityMappper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ParticipateRequestVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ParticipateCommandRequestVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/base/mapper/ActivityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <marker date="1498058311000" expanded="true" signature="1047:1262" ph="insert into activity... " />
+            <marker date="1498058311000" expanded="true" signature="1350:1452" ph="select FROM activity" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/ParticipateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="84" column="66" lean-forward="false" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ActivityVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ClueDetailResVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/vo/ClueHistoryResVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/ClueManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="69" column="25" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.2.RELEASE/spring-webmvc-4.2.2.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="156" column="13" lean-forward="false" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        <state relative-caret-position="795">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/local/database.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/javax/servlet/ServletInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="465">
+          <caret line="55" column="60" lean-forward="false" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/IndexController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/javax/servlet/ServletRequestWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="130">
+          <caret line="257" column="26" lean-forward="false" selection-start-line="257" selection-start-column="26" selection-end-line="257" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/javax/servlet/ServletRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="370" column="0" lean-forward="false" selection-start-line="370" selection-start-column="0" selection-end-line="370" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/javax/servlet/http/HttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="754" column="0" lean-forward="false" selection-start-line="754" selection-start-column="0" selection-end-line="754" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/TestServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/${sys:LOG_HOME}/${sys:FILE_NAME}.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/local/log4j2.xml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/local/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/webapp/WEB-INF/velocity/hello.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/base/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/base/applicationContext-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02255639">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/base/applicationContext-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7894737">
-          <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/base/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45112783">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/webapp/WEB-INF/velocity/hello.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09009009">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="626" column="28" selection-start-line="626" selection-start-column="18" selection-end-line="626" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/test_release/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/test_develop/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/test/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/stage/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/prod/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/local/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64285713">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/resources/local/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/java/com/maven/luanbin/archetype/web/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archetype-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45454547">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
