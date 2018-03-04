@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="Archetype-web:war">
-    <output-path>$PROJECT_DIR$/Archetype-web/target</output-path>
-    <root id="archive" name="Archetype-web-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="Archetype-web:war exploded" />
-    </root>
-  </artifact>
-</component>
