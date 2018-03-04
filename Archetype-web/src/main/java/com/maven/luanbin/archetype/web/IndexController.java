@@ -21,10 +21,11 @@ public class IndexController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String test() {
+        LOGGER.info("test-start");
         Map<String, Object> map = new HashMap<>();
         map.put("name", "q3boy");
         map.put("password", "q3girl");
-
+        LOGGER.info("test-end");
         return map.toString();
     }
 
